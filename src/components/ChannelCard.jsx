@@ -28,7 +28,7 @@ const ChannelCard = ({ channelDetail }) => (
             >
                 <CardMedia
                     image={
-                        channelDetail?.snippet?.thumbnail?.high?.url ||
+                        channelDetail?.snippet?.thumbnails?.high?.url ||
                         demoProfilePicture
                     }
                     alt={channelDetail?.snippet?.title}

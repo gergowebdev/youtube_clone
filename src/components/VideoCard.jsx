@@ -53,7 +53,7 @@ const VideoCard = ({
                         fontWeight="bold"
                         color="gray"
                     >
-                        {snippet?.ChannelTitle || demoChannelTitle}
+                        {snippet?.channelTitle || demoChannelTitle}
                         <CheckCircle
                             sx={{ fontSize: 12, color: "gray", ml: "5px" }}
                         />
